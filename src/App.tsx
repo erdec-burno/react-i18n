@@ -1,26 +1,29 @@
 import React from 'react';
+import { withTranslation, WithTranslation } from "react-i18next";
 import logo from './logo.svg';
 import './App.css';
+import MyLocale from './components/MyLocale';
 
-function App() {
+const App: React.FC<WithTranslation> = (props) => {
+  const { t } = props;
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <p>{t("title")}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {t("description.subtitle1")}
         </a>
+        <MyLocale/>
       </header>
     </div>
   );
 }
 
-export default App;
+export default withTranslation()(App);
