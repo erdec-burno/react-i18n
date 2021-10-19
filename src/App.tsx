@@ -19,6 +19,8 @@ const App: React.FC<WithTranslation> = (props) => {
           rel="noopener noreferrer"
         >
           {t("description.subtitle1")}
+
+          {t("description1.title")}
         </a>
         <MyLocale/>
       </header>
