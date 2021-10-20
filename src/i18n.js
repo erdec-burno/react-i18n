@@ -36,14 +36,14 @@ i18n
 		}
 	)
 
-// i18n.addResourceBundle('en', "translation", "/locales2/en/translation.json"
-	// {
-	// 	"description1": {
-	// 		"subtitle1": "Learn React",
-	// 		"subtitle2": "Switch language between english and russian using buttons above.",
-	// 		"subtitle3": "from included component"
-	// 	}
-	// })
+i18n.addResourceBundle('ru', "translation", /*"/locales2/en/translation.json"*/
+	{
+		"description1": {
+			"subtitle1": "Learn React123123",
+			"subtitle2": "Switch language between english and russian using buttons above.",
+			"subtitle3": "from included component"
+		}
+	})
 // )
 
 

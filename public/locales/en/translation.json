@@ -4,5 +4,81 @@
     "subtitle1": "Learn React",
     "subtitle2": "Switch language between english and russian using buttons above.",
     "subtitle3": "from included component"
-  }
+  },
+  "errors": {
+    "EntityNotFoundException": {
+      "EmployeeInfo": "No data employee. Error: 404.",
+      "RoleInfo": "",
+      "StoryInfo": "",
+      "AdminNotificationInfo": "",
+      "ReminderInfo": "",
+      "UserInfo": "",
+      "AuditDataInfo": ""
+    },
+    "EntityInUseException": {
+      "RoleInfo": "Невозможно удалить роль, которая назначена хотя бы на одного сотрудника."
+    },
+    "EntityAlreadyExistsException": {
+      "EmployeeInfo": "Сотрудник с таким Эл. адресом уже создан.",
+      "RoleInfo": "Роль с таким названием уже создана",
+      "StoryInfo": "",
+      "AdminNotificationInfo": "",
+      "ReminderInfo": "",
+      "UserInfo": ""
+    },
+    "EntityChangeRestrictException": {
+      "EmployeeInfo": "Невозможно изменить данные сотрудника. Код ошибки 400.",
+      "RoleInfo": ""
+    },
+    "ArgumentException": {
+      "EmployeeInfo": "",
+      "RoleInfo": "",
+      "StoryInfo": "",
+      "AdminNotificationInfo": "",
+      "ReminderInfo": "",
+      "UserInfo": ""
+    },
+    "InvalidStoryStatusException": {
+      "StoryInfo": ""
+    },
+    "InvalidPreconditionException": {
+      "AcceptEmployeeRequest": ""
+    },
+    "FileBadFormatException": {
+      "StoryInfo": ""
+    }
+  },
+  "success": {
+    "create": {
+      "employee": "На эл.адрес пользователя выслано письмо с инструкциями для завершения регистрации.",
+      "role": "",
+      "story": "",
+      "notification": "",
+      "reminder": "",
+      "user": ""
+    },
+    "update": {
+      "employee": "Пользователь успешно сохранен.",
+      "role": "",
+      "story": "",
+      "notification": "",
+      "reminder": "",
+      "user": "",
+      "invitation": "<p>На эл.адрес пользователя {<b>переотправлено</b>} письмо с инструкциями для завершения регистрации.</p>"
+    },
+    "delete": {
+      "employee": "Пользователь лишен доступа в систему и исключен из списка пользователей. Для отмены действия обратитесь к системному администратору.",
+      "role": "",
+      "story": "",
+      "notification": "",
+      "reminder": "",
+      "user": ""
+    },
+    "invitationSuccess": ""
+  },
+  "errorAccess": "Недостаточно прав для выполнения действия.",
+  "auth":{
+    "TokenAlreadyActivatedException": "Срок Вашего предложения истек или ссылка уже была использована."
+  },
+  "validation": {}
 }

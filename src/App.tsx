@@ -20,7 +20,7 @@ const App: React.FC<WithTranslation> = (props) => {
         >
           {t("description.subtitle1")}
 
-          {t("description1.title")}
+          {t("description1.subtitle1")}
         </a>
         <MyLocale/>
       </header>
